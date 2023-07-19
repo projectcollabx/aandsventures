@@ -1,0 +1,66 @@
+
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+
+.navbar{
+  background-color: transparent;
+  /* display: inline-block; */
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+
+.nav-link{
+  color: white;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 41px;
+    color: white;
+    font-family: ui-sans-serif;
+}
+
+.logo-name p{
+  margin-top: -7px;
+  margin-left: .5rem;
+}
+.nav-box{
+  
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.outer-nav-box{
+  display: flex;
+  flex-direction: row; 
+
+}
+
+#navbarSupportedContent{
+  position: absolute;
+  top: 50px;
+  right: 8rem;
+  font-size: 20px;
+}

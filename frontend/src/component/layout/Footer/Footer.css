@@ -1,0 +1,137 @@
+footer {
+  margin-top: 20vmax;
+  padding: 2vmax;
+  padding-top: 23px;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/* 
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 210px; */
+}
+
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+/* .leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1vmax;
+}
+.leftFooter > p {
+  text-align: center;
+  font-size: 1.2vmax;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+} */
+
+.midFooter {
+  width: 60%;
+
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font-size: 4vmax;
+  font-family: "Roboto";
+  color: #eb4034;
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+
+.leftFooter img{
+  height:10rem;
+  width: 10rem;
+}
+
+
+
+
+
+
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+
+.logo-name {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 41px;
+    color: white;
+    font-family: ui-sans-serif;
+}
+
+.logo-name p{
+  margin-top: -7px;
+  margin-left: .5rem;
+}
+
+.footerCopyrigh{
+ position: fixed;
+ left: 0px;
+ bottom: 0px;
+ width: 100%;
+ text-align: center;
+}
+
+.upperFooter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+
+
+
