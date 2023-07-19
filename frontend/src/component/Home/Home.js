@@ -12,7 +12,7 @@ import ScrollTriger from 'react-scroll-trigger';
 import './Counter.css';
 import SectionParent from '../HomeContent/SectionParent';
 // Import your logo image
-import logo from "../../images/a&s_logo.png";
+// import logo from "../../images/a&s_logo.png";
 import ClientReview from "../HomeContent/clientReview";
 
 const Home = () => {

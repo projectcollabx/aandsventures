@@ -1,6 +1,6 @@
 import React from "react";
-import playStore from "../../../images/playstore.png";
-import appStore from "../../../images/Appstore.png";
+// import playStore from "../../../images/playstore.png";
+// import appStore from "../../../images/Appstore.png";
 import "./Footer.css";
 import logo from "../../../images/a&s_logo.png";
 
@@ -18,16 +18,16 @@ const Footer = () => {
 
           <div className="rightFooter">
             <h4>Our Company</h4>
-            <a href="#">Lorem Ipsum</a>
-            <a href="#">Lorem Ipsum</a>
-            <a href="#">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
           </div>
 
           <div className="rightFooter">
             <h4>Our Work</h4>
-            <a href="#">Lorem Ipsum</a>
-            <a href="#">Lorem Ipsum</a>
-            <a href="#">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
           </div>
 
           <div className="rightFooter">
@@ -42,9 +42,9 @@ const Footer = () => {
           </div>
           <div className="rightFooter">
             <h4>Contact Details</h4>
-            <a href="#">Lorem Ipsum</a>
-            <a href="#">Lorem Ipsum</a>
-            <a href="#">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
+            <a href="/">Lorem Ipsum</a>
           </div>
         </div>
 

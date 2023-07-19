@@ -14,7 +14,7 @@ const ReviewBox = () => {
         </div>
         </div>
         <div className="reviewBoxContent">
-            <img src={imgLink} />
+            <img src={imgLink} alt = "review box image not found"/>
           </div>
     </div>
   );

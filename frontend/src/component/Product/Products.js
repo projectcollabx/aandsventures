@@ -5,7 +5,7 @@ import { clearErrors, getProduct } from "../../actions/productAction";
 import Loader from "../layout/Loader/Loader";
 import ProductCard from "../Home/ProductCard";
 import Pagination from "react-js-pagination";
-import Slider from "@material-ui/core/Slider";
+// import Slider from "@material-ui/core/Slider";
 import { useAlert } from "react-alert";
 import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
@@ -48,10 +48,10 @@ const Products = ({ match }) => {
   const alert = useAlert();
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [price, setPrice] = useState([0, 25000]);
+  // const [price, setPrice] = useState([0, 25000]);
   const [category, setCategory] = useState("");
   const [subcategory, setSubcategory] = useState("");
-  const [ratings, setRatings] = useState(0);
+  // const [ratings, setRatings] = useState(0);
 
   const {
     products,

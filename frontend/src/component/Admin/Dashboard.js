@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar.js";
 import "./dashboard.css";
 import { Typography } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import { Doughnut, Line } from "react-chartjs-2";
+// import { Doughnut, Line } from "react-chartjs-2";
 import { useSelector, useDispatch } from "react-redux";
 import { getAdminProduct } from "../../actions/productAction";
 import { getAllOrders } from "../../actions/orderAction.js";
@@ -42,29 +42,29 @@ const Dashboard = () => {
     });
 
   // Line chart data
-  const lineState = {
-    labels: ["Initial Amount", "Amount Earned"],
-    datasets: [
-      {
-        label: "TOTAL AMOUNT",
-        backgroundColor: ["tomato"],
-        hoverBackgroundColor: ["rgb(197, 72, 49)"],
-        data: [0, totalAmount],
-      },
-    ],
-  };
+  // const lineState = {
+  //   labels: ["Initial Amount", "Amount Earned"],
+  //   datasets: [
+  //     {
+  //       label: "TOTAL AMOUNT",
+  //       backgroundColor: ["tomato"],
+  //       hoverBackgroundColor: ["rgb(197, 72, 49)"],
+  //       data: [0, totalAmount],
+  //     },
+  //   ],
+  // };
 
   // Doughnut chart data
-  const doughnutState = {
-    labels: ["Out of Stock", "InStock"],
-    datasets: [
-      {
-        backgroundColor: ["#00A6B4", "#6800B4"],
-        hoverBackgroundColor: ["#4B5000", "#35014F"],
-        data: [outOfStock, products.length - outOfStock],
-      },
-    ],
-  };
+  // const doughnutState = {
+  //   labels: ["Out of Stock", "InStock"],
+  //   datasets: [
+  //     {
+  //       backgroundColor: ["#00A6B4", "#6800B4"],
+  //       hoverBackgroundColor: ["#4B5000", "#35014F"],
+  //       data: [outOfStock, products.length - outOfStock],
+  //     },
+  //   ],
+  // };
 
   return (
     <div className="dashboard">
