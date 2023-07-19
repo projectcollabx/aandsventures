@@ -48,10 +48,10 @@ const Products = ({ match }) => {
   const alert = useAlert();
 
   const [currentPage, setCurrentPage] = useState(1);
-  // const [price, setPrice] = useState([0, 25000]);
+  const [price, setPrice] = useState([0, 25000]);
   const [category, setCategory] = useState("");
   const [subcategory, setSubcategory] = useState("");
-  // const [ratings, setRatings] = useState(0);
+  const [ratings, setRatings] = useState(0);
 
   const {
     products,
