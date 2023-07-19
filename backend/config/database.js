@@ -2,9 +2,9 @@ const mongoose = require("mongoose");
 
 const connectDatabase = () => {
   mongoose
-    .connect(process.env.DB_URI, {
-      useNewUrlParser: true,
+    .connect("mongodb+srv://projectcollabx:asventures@cluster0.plxq05h.mongodb.net/?retryWrites=true&w=majority", {
       useUnifiedTopology: true,
+      useNewUrlParser: true,
       useCreateIndex: true,
     })
     .then((data) => {
